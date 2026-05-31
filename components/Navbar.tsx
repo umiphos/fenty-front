@@ -5,20 +5,20 @@ export default function Navbar() {
       position: 'fixed', top: 0, width: '100%', zIndex: 100,
       background: 'rgba(15, 26, 20, 0.95)',
       backdropFilter: 'blur(8px)',
-      borderBottom: '1px solid rgba(201, 168, 76, 0.3)',
+      borderBottom: '1px solid rgba(216, 131, 216, 0.4)',
       padding: '1rem 2rem',
       display: 'flex', justifyContent: 'space-between', alignItems: 'center',
     }}>
-      <span style={{ color: '#c9a84c', fontWeight: 'bold', fontSize: '1.1rem', letterSpacing: '0.05em' }}>
-        ANA MARTÍNEZ
+      <span style={{ color: '#D883D8', fontWeight: 'bold', fontSize: '1.1rem', letterSpacing: '0.05em' }}>
+        FENTY LAW
       </span>
       <div style={{ display: 'flex', gap: '2rem' }}>
-        {[['#blog', 'Blog'], ['#propuestas', 'Propuestas'], ['#trabajo', 'Trabajo']].map(([href, label]) => (
+        {[['#sobre', 'Sobre Fenty'], ['#blog', 'Blog'], ['#propuestas', 'Propuestas'], ['#trabajo', 'Trabajo']].map(([href, label]) => (
           <a key={href} href={href} style={{
             color: '#f5f0e8', textDecoration: 'none', fontSize: '0.9rem',
             letterSpacing: '0.08em', transition: 'color 0.2s',
           }}
-            onMouseEnter={e => (e.currentTarget.style.color = '#c9a84c')}
+            onMouseEnter={e => (e.currentTarget.style.color = '#D883D8')}
             onMouseLeave={e => (e.currentTarget.style.color = '#f5f0e8')}
           >
             {label}

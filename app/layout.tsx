@@ -3,7 +3,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 
 export const metadata: Metadata = {
-  title: 'Ana Martínez — Candidata Colima',
+  title: 'Fenty Law — Candidata Colima',
   description: 'Trabajo, seguridad y servicios reales para cada colonia.',
 }
 
