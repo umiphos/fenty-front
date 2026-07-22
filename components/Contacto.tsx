@@ -18,7 +18,6 @@ const voluntariado = [
 const navLinks = [
   ['/', 'Inicio'],
   ['/conoceme', 'Conóceme'],
-  ['#propuestas', 'Propuestas'],
   ['#blog', 'Blog'],
 ]
 

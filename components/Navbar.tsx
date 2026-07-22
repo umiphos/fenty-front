@@ -11,7 +11,7 @@ export default function Navbar() {
         FENTY LAW
       </span>
       <div style={{ display: 'flex', gap: '2rem' }}>
-        {[['#sobre', 'Sobre Fenty'], ['/conoceme', 'Conóceme'], ['#blog', 'Blog'], ['#propuestas', 'Propuestas'], ['#trabajo', 'Trabajo'], ['/contacto', 'Contacto']].map(([href, label]) => (
+        {[['#sobre', 'Sobre Fenty'], ['/conoceme', 'Conóceme'], ['#blog', 'Blog'], ['/contacto', 'Contacto']].map(([href, label]) => (
           <a key={href} href={href} style={{
             color: '#0f1a14', textDecoration: 'underline',
             textDecorationColor: '#c9a84c', textUnderlineOffset: '4px',
