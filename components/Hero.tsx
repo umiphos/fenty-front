@@ -60,7 +60,7 @@ export default function Hero() {
           }}>
             CONOCEME
           </a>
-          <a href="#blog" style={{
+          <a href="/#blog" style={{
             border: '1px solid rgba(255,255,255,0.6)', color: '#ffffff',
             padding: '0.9rem 2rem', textDecoration: 'none',
             letterSpacing: '0.05em', fontSize: '0.9rem',

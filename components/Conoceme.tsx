@@ -33,7 +33,6 @@ const milestones = [
     label: 'EL CAMINO ADELANTE',
     title: 'Preparada para liderar el mañana.',
     text: 'La experiencia me enseñó que el futuro no se espera, se diseña. Mi plan combina la estabilidad institucional con la innovación necesaria para enfrentar los desafíos de seguridad y desarrollo que enfrenta Colima.',
-    cta: true,
     reverse: true,
     bg: '#f5f0e8',
   },
@@ -89,16 +88,6 @@ export default function Conoceme() {
                   </div>
                 ))}
               </div>
-            )}
-
-            {m.cta && (
-              <a href="#propuestas" style={{
-                display: 'inline-block', background: '#0f1a14', color: '#f5f0e8',
-                padding: '0.9rem 2rem', textDecoration: 'none',
-                fontWeight: 'bold', letterSpacing: '0.05em', fontSize: '0.9rem',
-              }}>
-                CONOCE MI PLAN 2026
-              </a>
             )}
           </div>
 

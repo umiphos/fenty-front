@@ -6,19 +6,10 @@ const asuntos = [
   'Otro',
 ]
 
-const voluntariado = [
-  'Llamadas telefónicas',
-  'Volanteo casa por casa',
-  'Redes sociales',
-  'Organización de eventos',
-  'Captura de datos',
-  'Traducción',
-]
-
 const navLinks = [
   ['/', 'Inicio'],
   ['/conoceme', 'Conóceme'],
-  ['#blog', 'Blog'],
+  ['/#blog', 'Blog'],
 ]
 
 const recursos = ['Prensa', 'Preguntas frecuentes', 'Aviso de Privacidad', 'Términos de Uso']
@@ -169,7 +160,7 @@ export default function Contacto() {
           ¿Lista para hacer historia?
         </h2>
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
-          <a href="#voluntariado" style={{
+          <a href="#contacto" style={{
             background: '#ffffff', color: '#8383D8',
             padding: '1rem 2.5rem', textDecoration: 'none',
             fontWeight: 'bold', letterSpacing: '0.05em', fontSize: '0.9rem', borderRadius: '8px',
